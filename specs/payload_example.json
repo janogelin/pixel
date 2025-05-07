@@ -1,0 +1,28 @@
+{
+  "event_type": "purchase",
+  "event_time": "2025-05-07T14:52:00Z",
+  "user": {
+    "id": "abc123",
+    "ip": "203.0.113.45",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
+  },
+  "session_id": "xyz456",
+  "page_url": "https://example.com/product/123",
+  "referrer": "https://partner.com/ad?campaign=789",
+  "campaign": {
+    "id": "camp-789",
+    "source": "google",
+    "medium": "cpc",
+    "term": "running+shoes",
+    "content": "text_ad_3"
+  },
+  "browser": {
+    "language": "en-US",
+    "screen_resolution": "1920x1080"
+  },
+  "custom": {
+    "product_id": "sku-456",
+    "revenue": 149.99,
+    "currency": "USD"
+  }
+}
