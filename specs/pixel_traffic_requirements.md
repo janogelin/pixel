@@ -29,6 +29,7 @@ This document outlines the requirements for a latency-sensitive pixel traffic co
   - Apache Flink is used for real-time stream processing and analytics on the pixel data.
   - Processed data is written to Apache Iceberg tables, with Nessie as the Iceberg catalog for versioned data lake management.
   - The Iceberg tables are stored in S3 buckets as the final data destination.
+  - Parquet files should be used as the storage format for efficient analytics and compression within Iceberg tables and S3.
   - Kafka must implement robust backpressure and flow control mechanisms to prevent overload, and broker protection strategies should be in place to avoid cascading failures.
   - (Optional) Aerospike can be used for live stream data from frontends for real-time fraud/AI analysis (e.g., with a custom-tuned LLM).
 - **Global Traffic Distribution:**
