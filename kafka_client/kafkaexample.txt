@@ -1,0 +1,5 @@
+Message size: 1024 bytes
+Messages per second: 10000
+Retention nr of days: 7 days
+Replication factor: 3
+
